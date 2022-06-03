@@ -70,13 +70,13 @@ export class Direccion {
 
 	public informacionDireccion() {
 		const info: String = `
-	  Calle: ${this.calle}
-    Numero: ${this.numero}
-    Piso: ${this.piso}
-    Letra: ${this.letra}
-    CodigoPostal: ${this.codigoPostal}
-    Poblacion: ${this.poblacion}
-    Provincia: ${this.provincia}
+	Calle: ${this.calle}
+	Numero: ${this.numero}
+	Piso: ${this.piso}
+	Letra: ${this.letra}
+	CodigoPostal: ${this.codigoPostal}
+	Poblacion: ${this.poblacion}
+	Provincia: ${this.provincia}
 	`;
 		return info;
 	}

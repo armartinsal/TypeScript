@@ -109,18 +109,17 @@ export class Persona {
 	}
 
 	public informacionPersona() {
-		const info: String = `
-	  Nombre: ${this.nombre}
-    Apellidos: ${this.apellidos}
-    Edad: ${this.edad}
-    DNI: ${this.DNI}
-    Fecha de Cumpleaños: ${this.cumpleanos.toDateString()}
-    Color Favorito: ${this.colorFavorito}
-    Género: ${this.sexo}
-    Dirección: ${this.direcciones.informacionDireccion()}
-    Email: ${this.mails.informacionMail()}
-    Teléfono:${this.telefonos.informacionTelefono()}
-    Notas: ${this.notas}
+		const info: String = `Nombre: ${this.nombre}
+Apellidos: ${this.apellidos}
+Edad: ${this.edad}
+DNI: ${this.DNI}
+Fecha de Cumpleaños: ${this.cumpleanos.toDateString()}
+Color Favorito: ${this.colorFavorito}
+Género: ${this.sexo}
+Dirección: ${this.direcciones.informacionDireccion()}
+Email: ${this.mails.informacionMail()}
+Teléfono:${this.telefonos.informacionTelefono()}
+Notas: ${this.notas}
 	`;
 		return info;
 	}
