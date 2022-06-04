@@ -39,10 +39,10 @@ var Persona = /** @class */ (function () {
     Persona.prototype.setDNI = function (DNI) {
         this.DNI = DNI;
     };
-    Persona.prototype.getCumpleaños = function () {
+    Persona.prototype.getCumpleanos = function () {
         return this.cumpleanos;
     };
-    Persona.prototype.setCumpleaños = function (cumpleanos) {
+    Persona.prototype.setCumpleanos = function (cumpleanos) {
         this.cumpleanos = cumpleanos;
     };
     Persona.prototype.getColorFavorito = function () {

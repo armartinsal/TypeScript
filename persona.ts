@@ -65,10 +65,10 @@ export class Persona {
 	public setDNI(DNI: String) {
 		this.DNI = DNI;
 	}
-	public getCumpleaños() {
+	public getCumpleanos() {
 		return this.cumpleanos;
 	}
-	public setCumpleaños(cumpleanos: Date) {
+	public setCumpleanos(cumpleanos: Date) {
 		this.cumpleanos = cumpleanos;
 	}
 	public getColorFavorito() {
